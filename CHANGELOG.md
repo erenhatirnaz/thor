@@ -1,3 +1,7 @@
+## 0.20.0
+* Add `disable_required_check!` to disable check for required options in some commands.
+  It is a substitute of `disable_class_options` that was not working as intended.
+
 ## 0.19.4, release 2016-11-28
 * Rename `Thor::Base#thor_reserved_word?` to `#is_thor_reserved_word?`
 
